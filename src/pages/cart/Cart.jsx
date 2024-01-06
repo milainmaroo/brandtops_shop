@@ -20,6 +20,7 @@ const Cart = () => {
           if (cartItems[product.id] !== 0) {
             return <CartItem key={key} data={product} />
           }
+        return null;
         })}
       </div>
 
